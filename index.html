@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+</head>
+
+<body>
+    <div id="example"></div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAxm2dIJKM9FlQXbuTMCszmDvMyOX_LJIY",
+            authDomain: "feedaback-web.firebaseapp.com",
+            databaseURL: "https://feedaback-web.firebaseio.com",
+            projectId: "feedaback-web",
+            storageBucket: "",
+            messagingSenderId: "80038685245",
+            appId: "1:80038685245:web:ecdc98af4d4f1d0d"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- Dependencies -->
+    <script src="./node_modules/react/umd/react.development.js"></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+
+    <!-- Main -->
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>
